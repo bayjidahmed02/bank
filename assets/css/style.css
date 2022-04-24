@@ -18,6 +18,7 @@ p,span,a{
     --primary: #ff4151;
     --secondary: #272a3a;
     --title: #565972; 
+   
 }
 
     /* Header Start From Here */
@@ -48,7 +49,7 @@ p,span,a{
 #hero .descripton{
     color: var(--title);
 }
-#hero .hero_btn, .about_btn{
+#hero .hero_btn, .about_btn, .dbtn{
     background: #FF4265;
     box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
 }
@@ -110,3 +111,35 @@ p,span,a{
     font-size: 12px;
     color: #ffb02b;
 }
+/* testimonial end from here */
+/* ......................... */
+
+/* choose start from here */
+#choose .title, .description, .choose_des, .choose_item, .choose_desc{
+    color: var(--title);
+} 
+#choose .title{
+    font-size: 46px;
+}
+#choose i{
+    color:#ff416c;
+}
+/* choose end from here */
+/* ........................ */
+
+/* download start from here */
+#download{
+    background: #ffeded;
+}
+#download .dbtn img {
+	width: 130px;
+}
+#download .title, .description{
+  color: var(--title);
+}
+#download .check_box{
+    color: white;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);;
+}
+/* close download section */
+
