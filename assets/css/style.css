@@ -143,3 +143,24 @@ p,span,a{
 }
 /* close download section */
 
+/* footer section start from here */
+#footer .title, .description, a{
+    color: var(--title);
+}
+#footer .social_icon i {
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+    color: var(--title);
+}
+
+
+#copyright .copyright_text{
+    color: var(--title);
+}
+#copyright .highlight{
+    color: var(--primary);
+}
